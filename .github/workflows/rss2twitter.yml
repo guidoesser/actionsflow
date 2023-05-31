@@ -1,7 +1,7 @@
 name: Tweet new RSS Feed items	
 on:
   rss:
-    url: https://serwiss.bib.hs-hannover.de/rss
+    url: https://serwiss.bib.hs-hannover.de/solrsearch/index/search/searchtype/latest/rows/1
 jobs:
   twitter:
     name: Post a tweet
